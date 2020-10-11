@@ -24,7 +24,7 @@ class BottomBar extends StatelessWidget {
                 isSelected: state.selectedIndex == 0,
               ),
               BottomBarItem(
-                img: "assets/icons/comment.png",
+                img: "assets/icons/comments.png",
                 onTap: () {
                   state.changeIndex(1);
                 },
