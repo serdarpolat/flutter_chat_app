@@ -5,7 +5,7 @@ Color lightGreen = Color(0XFFE3F2F1);
 Color mainGrey = Color(0XFF939393);
 Color lightGrey = Color(0XFFF2F2F2);
 Color darkGrey = Color(0xFF555D5C);
-Color textWhite = Colors.white.withOpacity(0.9);
+Color textWhite = Colors.white.withOpacity(0.95);
 Color textBlack = Colors.black.withOpacity(0.9);
 
 Color mainPurple = Color(0xFF675BE8);

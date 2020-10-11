@@ -69,10 +69,13 @@ class BottomBarItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
-      child: Image.asset(
-        img,
-        color: isSelected ? mainPurple : Colors.black.withOpacity(0.4),
-        height: 36,
+      child: Container(
+        padding: EdgeInsets.all(7),
+        child: Image.asset(
+          img,
+          color: isSelected ? mainPurple : Colors.black.withOpacity(0.4),
+          height: 36,
+        ),
       ),
     );
   }
