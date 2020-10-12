@@ -1,5 +1,8 @@
 export 'package:chat_app/ui/theme.dart';
 
+export 'package:chat_app/pages/onboarding_page.dart';
+export 'package:chat_app/pages/login_page.dart';
+export 'package:chat_app/pages/register_page.dart';
 export 'package:chat_app/pages/home_page.dart';
 export 'package:chat_app/pages/messages_page.dart';
 export 'package:chat_app/pages/stories_page.dart';
